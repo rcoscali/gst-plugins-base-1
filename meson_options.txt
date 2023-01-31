@@ -49,6 +49,7 @@ option('typefind', type : 'feature', value : 'auto')
 option('videoconvert', type : 'feature', value : 'auto')
 option('videorate', type : 'feature', value : 'auto')
 option('videoscale', type : 'feature', value : 'auto')
+option('videodiscret11', type : 'feature', value : 'auto')
 option('videotestsrc', type : 'feature', value : 'auto')
 option('volume', type : 'feature', value : 'auto')
 
