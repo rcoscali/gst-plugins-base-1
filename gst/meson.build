@@ -1,6 +1,6 @@
 foreach plugin : ['adder', 'app', 'audioconvert', 'audiomixer', 'audiorate', 'audioresample',
                   'audiotestsrc', 'compositor', 'encoding', 'gio', 'overlaycomposition', 'pbtypes', 'playback',
-                  'rawparse', 'subparse', 'tcp', 'typefind', 'videoconvert', 'videorate', 'videoscale',
+                  'rawparse', 'subparse', 'tcp', 'typefind', 'videoconvert', 'videorate', 'videoscale', 'videodiscret11',
                   'videotestsrc', 'volume']
   if not get_option(plugin).disabled()
     subdir(plugin)
